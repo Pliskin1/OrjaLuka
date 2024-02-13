@@ -1,0 +1,100 @@
+[
+    {   "id" : 1, 
+        "ime" : "Vaso",
+        "imeOca" : "Đorđije",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Orja Luka",
+        "godinaRodjenja" : "1898",
+        "mjestoSmrti" : "Orja Luka",
+        "godinaSmrti" : "1944",
+        "bio" : "Rođen je 1898. godine u selu Orja Lukam (NOO danilovgrad) po zanimanju je bio zemljoradnik. Poginuo je pri oslobodjenju sela krajem 1944. godine."
+    },
+    {
+        "id" : 2,
+        "ime" : "Dušan",
+        "imeOca" : "Blažo",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Orja Luka",
+        "godinaRodjenja" : "?",
+        "mjestoSmrti" : "Poljska",
+        "godinaSmrti" : "1943",
+        "bio" : "Rođen je u selu Orja Luka (NOO Danilovgrad). Po zanimanju je bio potpukovnik stare jugoslovenske vojske. Ubijen je na zvijerski način krajem 1943. godine u Poljskoj u logoru."
+    },
+    {
+        "id" : 3,
+        "ime" : "Đuka",
+        "imeOca" : "Jovan",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Martinići",
+        "godinaRodjenja" : "?",
+        "mjestoSmrti" : "Orja Luka",
+        "godinaSmrti" : "1943",
+        "bio" : "Rođena je u selu Martinićima (NOO Danilovgrad) Po zanimanju je bila domaćica. Na zvijerski način ubijena je od strane okupatorskih vojnika- Italijana 1943. godine u selu Orja Luka."
+    },
+    {
+        "id" : 4,
+        "ime" : "Jovan",
+        "imeOca" : "Vojin",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Podgorica",
+        "godinaRodjenja" : "?",
+        "mjestoSmrti" : "Podgorica",
+        "godinaSmrti" : "1943",
+        "bio" : "Rođen je u Titogradu. Poginu je pri bombarodanju Titograda 1943 godine."
+    },
+    {
+        "id" : 5,
+        "ime" : "Puniša",
+        "imeOca" : "Ilija",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Orja Luka",
+        "godinaRodjenja" : "1902",
+        "mjestoSmrti" : "Orja Luka",
+        "godinaSmrti" : "1944",
+        "bio" : "Rođen je 1902 godine u selo Orja Luka (NOO Danilovgrad). Po zanimanju je bio finansiski preglednik. Poginuo je krajem 1944. godine pri polasku na oslobodjenu teritoriju na teren sela Orja Luka."
+    },
+    {
+        "id" : 6,
+        "ime" : "Radmila",
+        "imeOca" : "Vojin",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Podgorica",
+        "godinaRodjenja" : "?",
+        "mjestoSmrti" : "Podgorica",
+        "godinaSmrti" : "1943",
+        "bio" : "Rođena je u Titogradu, a poginula 1943. godine pri bombardovanju Titograda."
+    },
+    {
+        "id" : 7,
+        "ime" : "Božana",
+        "imeOca" : "Ilija",
+        "prezime" : "Bošković",
+        "mjestoRodjenja" : "Pješivci",
+        "godinaRodjenja" : "1889",
+        "mjestoSmrti" : "Orja Luka",
+        "godinaSmrti" : "1941",
+        "bio" : "Rođena je 1889 godine u Pješivcima, ONO Nikšić. Po zanimanju je bila domaćica. Ubijena je na zvijerski način od strane okupatora - Italijana 1941. godine u selu Orja Luka."
+    },
+    {
+        "id" : 8,
+        "ime" : "Jovanka",
+        "imeOca" : "Jovan",
+        "prezime" : "Vujović",
+        "mjestoRodjenja" : "Orja Luka",
+        "godinaRodjenja" : "1929",
+        "mjestoSmrti" : "Podgorica",
+        "godinaSmrti" : "1943",
+        "bio" : "Rođena je 1929. godine u Orjoj Luci (NOO Danilovgrad), a po zanimanju je bila đak. Poginula je 1943. godine pri bombardovanju Titograda."
+    },
+    {
+        "id" : 9,
+        "ime" : "Ljubica",
+        "imeOca" : "Mileta",
+        "prezime" : "Vujović",
+        "mjestoRodjenja" : "Orja Luka",
+        "godinaRodjenja" : "1926",
+        "mjestoSmrti" : "Podgorica",
+        "godinaSmrti" : "1943",
+        "bio" : "Rođena je 1926 godine u selo Orja Luka (ONO Danilovgrad). Po zanimanju je bila đak. Poginula je 1943. godine pri bombardovanju Tutograda"
+    }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <base href="images/"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0;url=https://orja-luka.me/borci.html" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.min.css">
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/datatables/media/js/jquery.dataTables.js"></script>
+    <script src="node_modules/jspdf/dist/jspdf.umd.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>Borci 1941 - 1945</title>
+</head>
+<body>  
+  <div class="row">
+    <div class="col-sm-12" style="text-align: center;">
+  <h1>ORJA LUKA U II SVJETSKOM RATU 1941 - 1945</h1>
+  <blockquote>
+    <i>
+    Vama, koji herojski položiste svoje živote pod vođstvom komunističke partije i druga Tita za slobodu svoje domovine.
+    <br>  
+    1941 - 1945
+   </i>
+  </blockquote>  
+  </div>
+    <table id="myTable" class="cell-border compact stripe">
+        <!-- <thead>
+            <tr>
+            </tr>
+        </thead> -->
+        <!-- <tbody>
+
+        </tbody> -->
+
+    </table>
+ 
+    <!-- <button type="button" class="btn btn-primary" onclick="show()">Primary</button>
+    <input id ='test1' type="text" value="test"> -->
+    
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+              <h4 class="modal-title"> &nbsp;<span id="target"></span> </h4>
+              <a id="pdf" target="#" onclick="generatePDF()" image="blank">Preuzmi PDF</a>
+            </div>
+            <div class="modal-body" >
+              <div class="frame" style="text-align: center;"> <img id="modal-image" src="" width="300px" height="300px"> </div>
+              <h4 style="text-align: center;"><span id="first_name"></span> <span id="fathers_name"></span> <span id="last_name"></span></h4>
+              <strong><p id="life_places" style="text-align: center;"></p></strong>
+              <strong><p id="life_time" style="text-align: center;"></p></strong>
+              <p id="bio" style="text-align: justify;overflow-y: scroll; height: 350px;"></p>
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-bs-dismiss="modal">Zatvori</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <script>
+        function generatePDF(){
+        const { jsPDF } = jspdf;
+        
+        const  doc = new jsPDF();
+        // console.log(doc.getFontList());
+        const image = new Image();
+        const fullName = $("#first_name").text() + $("#fathers_name").text() + $("#last_name").text();
+        const life_places = $("#life_places").text();
+        const biography = $("#bio").text();
+        image.src =  $("#pdf").attr("image");
+        // console.log(doc);
+        doc.addImage(image, "jpg", 50,5,100,100);
+        doc.text(fullName,50,120);
+        doc.text(life_places,50,130);
+        doc.setFontSize(10);
+        let splitBio = doc.splitTextToSize(biography,370);
+        doc.text(splitBio,0,170);
+        doc.output("dataurlnewwindow");
+        // doc.save("dcode-pdf.pdf");
+        }
+      </script>
+
+</body>
+</html>

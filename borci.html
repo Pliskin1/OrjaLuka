@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <base href="images/small_images/"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vječna spomen i zahvalnost borcima iz sela Orje Luke, koji su svojim životima i djelima 'dodali tako svaki prema svojim sposobnostima i mogućnostima još koju kaplju slave imenu Orje Luke'">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/grid.css?v=2">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_images/apple-touch-icon.png?">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_images/favicon-32x32.png?">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_images/favicon-16x16.png?">
+    <link rel="icon" type="image/x-icon" href="./favicon_images/Red_star.svg?">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--<link rel="manifest" href="/site.webmanifest">-->
+    <!--<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">-->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:image" content="images/og_images/frontOg.jpg">
+    <meta property = "og:type" content = "website" /> <!-- For website -->
+    <meta property = "og:title" content = "ORJA LUKA U II SVJETSKOM RATU 1941 - 1945" />
+    <meta property = "og:url" content = "https://orja-luka.me/borci.html" />
+    <meta property = "og:description" content = "Vječna spomen i zahvalnost borcima iz sela Orje Luke, koji su svojim životima i djelima 'dodali tako svaki prema svojim sposobnostima i mogućnostima još koju kaplju slave imenu Orje Luke'" />
+    <meta property = "og:site_name" content = "Orja Luka" />
+    
+    <!-- <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.min.css"> -->
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+    <script src="node_modules/jquery/dist/jquery.js" defer></script>
+    <!-- <script src="node_modules/datatables/media/js/jquery.dataTables.js"></script> -->
+    <script src="js/grid.js" defer></script>
+    <title>Borci 1941 - 1945</title>
+</head>
+<body>  
+
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <h1 class="heading">ORJA LUKA U II SVJETSKOM RATU 1941 - 1945</h1>
+          <blockquote>
+            <i>
+            Vama, koji herojski položiste svoje živote pod vođstvom komunističke partije i druga Tita za slobodu svoje domovine.
+            <br>  
+            1941 - 1945
+           </i>
+          </blockquote>  
+        </div>
+
+      </div>
+      <div class="row" id="gallery" style="margin-top: 2%;">
+      </div>
+      <div class="col-sm-12" style="text-align: center;margin-bottom: 3%;">
+        <h1 class="heading">ŽRTVE FAŠISTIČKOG TERORA</h1>
+      </div>
+      <div class="row" id="victims">
+          
+      </div>
+<!-- 
+      <p id="target"></p>
+
+     
+          
+        <p id="text_container">Landing site for names..</p> -->
+        
+    </div>
+
+    <footer class="bg-dark text-center text-lg-start text-white footer">
+      <!-- Grid container -->
+     
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-white" href="https://www.linkedin.com/in/andrej-bo%C5%A1kovi%C4%87-5ab75a102/" target="_blank">Andrej R. Bošković</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+ 
+    <!-- <button type="button" class="btn btn-primary" onclick="show()">Primary</button>
+    <input id ='test1' type="text" value="test"> -->
+    
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close close" data-bs-dismiss="modal"></button>
+              <!--<h4 class="modal-title"> &nbsp;<span id="target"></span> </h4>-->
+            </div>
+            <div class="modal-body" >
+              <div style="text-align: center;"> <img id="modal-image" src="" width="300px" height="300px"> </div>
+              <h4 style="text-align: center;"><span id="first_name"></span> <span id="fathers_name"></span> <span id="last_name"></span></h4>
+              <strong><p id="life_places" style="text-align: center;"></p></strong>
+              <strong><p id="life_time" style="text-align: center;"></p></strong>
+              <p id="bio" style="text-align: justify;overflow-y: scroll; height: 350px;"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
